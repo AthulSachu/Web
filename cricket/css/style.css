@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+#main {
+    background: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+}
+
+.container {
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    gap: 2em;
+    margin: auto;
+    margin-right: 0;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #111;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+li a:hover {
+    background-color: #111;
+    color: #fff;
+}
+
+.match-details,
+.player-names {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.match-details h2,
+.player-names h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #fff;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+table th {
+    background-color: #0074D9;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ffeb99;
+    cursor: pointer;
+}
+
+.player-table th {
+    background-color: #FF4136;
+}
+
+.upcoming-matches {
+    margin: 20px 0;
+}
+
+.upcoming-matches ul {
+    list-style-type: square;
+    text-align: left;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: white;
+    color: #111;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+}
+
+footer a {
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+}
