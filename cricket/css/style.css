@@ -47,7 +47,6 @@ li a {
     color: #111;
     padding: 0.5em 1em;
     border-radius: 20px;
-    transition: background-color 0.3s ease-in-out;
 }
 
 li a:hover {
@@ -96,10 +95,6 @@ table th {
     font-weight: bold;
 }
 
-table tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
 table tr:hover {
     background-color: #ffeb99;
     cursor: pointer;
@@ -107,16 +102,6 @@ table tr:hover {
 
 .player-table th {
     background-color: #FF4136;
-}
-
-.upcoming-matches {
-    margin: 20px 0;
-}
-
-.upcoming-matches ul {
-    list-style-type: square;
-    text-align: left;
-    font-size: 1rem;
 }
 
 footer {
