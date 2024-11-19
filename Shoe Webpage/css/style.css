@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1608551279839-84c7ca889b80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: top center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+    background-color: #f8f8f8;
+}
+
+nav ul {
+    display: flex;
+    margin: auto;
+    margin-right: 0;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1.2em 1.5em;
+    background-color: #f8f8f8;
+    text-align: center;
+    font-weight: 700;
+    border-top: 5px solid #111;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(69, 67, 67);
+}
+
+.container {
+    margin: 2.5em;
+}
+
+.content {
+    width: 60%;
+}
+
+.content h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-top: 1.5em;
+}
+
+.content ul li {
+    list-style: none;
+}
+
+li p {
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 1.5em;
+}
+
+.join a,
+.shop a,
+button a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.join a {
+    color: black;
+}
+
+.shop a {
+    color: white;
+}
+
+.join,
+.shop {
+    border: none;
+    border-radius: 20px;
+    margin-top: 1.5em;
+}
+
+.join {
+    padding: 0.8em 1.5em;
+}
+
+.shop {
+    padding: 0.8em 2em;
+    margin-left: 1.5em;
+    background-color: black;
+}
+
+.login-form {
+    width: 23%;
+    height: 50%;
+    background: radial-gradient(circle at 50% 50%, rgba(231, 228, 228, 0.5), rgba(241, 239, 239, 0.5));
+    position: absolute;
+    top: 10em;
+    left: 970px;
+    backdrop-filter: blur(2px);
+    border-radius: 2em;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    text-align: center;
+    color: #111;
+}
+
+.login-form h1 {
+    font-size: 2em;
+}
+
+.login-form input {
+    margin-top: 2em;
+
+}
+
+.login-form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid black;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.login-form button {
+    margin-top: 3em;
+    padding: 0.7em 1.5em;
+    border: none;
+    border-radius: 15px;
+    background-color: #111;
+    margin-right: 1.2em;
+}
+
+button a {
+    color: white;
+}
+
+
+table {
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+table,
+th,
+td {
+    border: 1px solid #111;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #111;
+    color: white;
+    font-size: 1.1em;
+}
+
+td {
+    font-size: 1.1em;
+}
+
+img {
+    border-radius: 20px;
+}
